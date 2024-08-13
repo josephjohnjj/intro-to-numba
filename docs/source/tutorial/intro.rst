@@ -4,15 +4,10 @@ Performance Comparisson
 .. admonition:: Overview
    :class: Overview
 
-    * **Tutorial:** 15 min
-    * **Exercises:** 10 min
+    * **Tutorial:** 10 min
 
         **Objectives:**
-            #. Learn the general architecture of GPUs.
-            #. Learn about the execution model of an NVIDIA GPU. 
-            #. Learn about thread indexing in GPUs.
-            #. Learn about streams in NVIDIA GPU.
-            #. Learn about data movements in GPUs.
+            #. Learn the how Numba works.
 
 
 Numba was developed to address the inefficiencies in NumPy use cases. NumPy uses multi-dimensional arrays 
@@ -25,7 +20,7 @@ rewrite the code in C.
 
 
 Just-in-Time (JIT) Compiler
-***************************
+---------------------------
 
 A Just-in-Time (JIT) compiler in Numba works by dynamically compiling Python code into optimized machine code 
 at runtime, rather than ahead of time. 
@@ -63,10 +58,21 @@ Overall, Numba's JIT compilation allows Python code, especially numerical and sc
 significantly faster by translating it into efficient machine code while maintaining the ease of writing in 
 Python. 
 
+..  code-block:: python
+    :linenos:
+
+    import numba
+    from numba import jit, int32, prange, vectorize, float64, cuda
+
+
+Decorating a function with `@jit` marks it for optimization by Numba's JIT compiler. Compilation is 
+deferred until the function is first executed, and different function invocations may result in 
+different compilations based on the input types.
+
+.. image:: ../figs/numba_working
+
 
 .. admonition:: Key Points
    :class: hint
 
-    #. Thread indexing play an important role in GPU performance.
-    #. Warp size play an important role in GPU performance.
-    #. Streams can improve asynchronous parallelism in GPUs.
+    #. Numba uses simple annonations to parallelise code.
