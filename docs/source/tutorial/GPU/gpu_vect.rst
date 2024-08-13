@@ -16,6 +16,9 @@ The more interesting aspects lie in the function's declaration, which includes t
 ..  code-block:: python
     :linenos:
 
+    from numba import guvectorize, int64
+    import numpy as np
+    
     @guvectorize([(int64[:], int64, int64[:])], '(n),()->(n)')
     def g(x, y, res):
         for i in range(x.shape[0]):
