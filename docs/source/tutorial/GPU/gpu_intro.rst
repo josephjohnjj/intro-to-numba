@@ -4,7 +4,7 @@ CUDA and Numba
 .. admonition:: Overview
    :class: Overview
 
-    * **Tutorial:** 10 min
+    * **Tutorial:** 30 min
 
         **Objectives:**
             #. Learn how target GPUs using Numba.
