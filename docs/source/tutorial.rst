@@ -28,7 +28,7 @@ Tutorial (GPU)
     tutorial/GPU/gpu_reduction
     
 
-
+GitHub Repo: https://github.com/NCI900-Training-Organisation/intro-to-numba.git
 
 
 
