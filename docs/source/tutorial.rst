@@ -10,6 +10,7 @@ will be provided for you during the session.
     tutorial/llvm
     tutorial/eager
     tutorial/compiler_mode
+    tutorial/cache
 
 
 
