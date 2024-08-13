@@ -32,14 +32,14 @@ the performance optimizations applied by Numba.
 
 In the code 
 
-1. **`f`**: This represents a Numba-compiled function or a Numba function object. 
+1. **f**: This represents a Numba-compiled function or a Numba function object. 
 
-2. **`inspect_llvm()`**: This is a method provided by Numba that you can call on a Numba function
+2. **inspect_llvm()**: This is a method provided by Numba that you can call on a Numba function
  object. When you call `inspect_llvm()`, it returns an object that contains the LLVM 
  (Low-Level Virtual Machine) Intermediate Representation (IR) for the compiled function. 
  LLVM IR is a low-level programming language used by the LLVM compiler framework to represent code during compilation.
 
-3. **`.items`**: After calling `inspect_llvm()`, the returned object typically has an `items` 
+3. **.items**: After calling `inspect_llvm()`, the returned object typically has an `items` 
 attribute. This attribute is a dictionary-like object that contains information about the LLVM IR of the function. Each entry in this dictionary represents a part of the LLVM IR, and it may include details such as function signatures, LLVM IR instructions, and other relevant information.
 
 
@@ -48,4 +48,4 @@ attribute. This attribute is a dictionary-like object that contains information 
 .. admonition:: Key Points
    :class: hint
 
-    #. Numba uses simple annonations to parallelise code.
+    #. Numba generated LLVM code can be inspected.
