@@ -1,7 +1,8 @@
-Introduction to Parallel Programming Using Python
-=================================================
+Introduction to Numba
+=====================
 
-This repository provides an introduction to the concepts of parallel programming using Python.
+This repository provides a comprehensive guide to understanding and utilizing Numba, a Just-in-Time (JIT) 
+compiler for Python that is designed to speed up numerical and scientific computing.
 
 .. note::
 

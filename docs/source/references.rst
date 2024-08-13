@@ -1,10 +1,7 @@
 Reference
 =========
-1. https://docs.nvidia.com/deeplearning/performance/dl-performance-gpu-background/index.html
-2. https://www.nvidia.com/content/PDF/fermi_white_papers/NVIDIA_Fermi_Compute_Architecture_Whitepaper.pdf
-3. https://www.sciencedirect.com/science/article/abs/pii/B978012800979600010X
-4. https://developer.download.nvidia.com/CUDA/training/StreamsAndConcurrencyWebinar.pdf
-5. https://mpitutorial.com
+1. https://numba.pydata.org/numba-doc/latest/user/index.html
+2. https://dl.acm.org/doi/pdf/10.1145/2833157.2833162
 
 
 Contributers

@@ -6,12 +6,7 @@ will be provided for you during the session.
 
 .. toctree::
 
-    tutorial/jobs
-    tutorial/highlevel
-    tutorial/vector
-    tutorial/multicore
-    tutorial/gpu
-    tutorial/multinode
+    tutorial/intro
 
 
 
