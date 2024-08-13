@@ -65,11 +65,31 @@ Python.
     from numba import jit, int32, prange, vectorize, float64, cuda
 
 
-Decorating a function with `@jit` marks it for optimization by Numba's JIT compiler. Compilation is 
-deferred until the function is first executed, and different function invocations may result in 
-different compilations based on the input types.
+Decorating a function with `@jit` marks it for optimization by Numba's JIT compiler. 
 
-.. image:: ../figs/numba_working
+..  code-block:: python
+    :linenos:
+
+    @jit
+    def f(x, y):
+        return x + y
+
+.. image:: ../figs/numba_working.png
+
+
+Compilation is deferred until the function is first executed
+
+..  code-block:: python
+    :linenos:
+
+    f(2, 3)
+
+and different function invocations may result in different compilations based on the input types.
+
+..  code-block:: python
+    :linenos:
+
+    f('2', '3')
 
 
 .. admonition:: Key Points
