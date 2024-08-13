@@ -1,5 +1,5 @@
-Performance Comparisson
------------------------
+Working with Numba
+------------------
 
 .. admonition:: Overview
    :class: Overview
