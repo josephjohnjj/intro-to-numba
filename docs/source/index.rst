@@ -11,7 +11,7 @@ compiler for Python that is designed to speed up numerical and scientific comput
 Contents
 --------
 
-.. list-table:: Tutorial Contents
+.. list-table:: Topic Covered
    :widths: 20 20 
    :header-rows: 1   
  
