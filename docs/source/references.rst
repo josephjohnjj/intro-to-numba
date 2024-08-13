@@ -1,7 +1,8 @@
 Reference
 =========
-1. https://numba.pydata.org/numba-doc/latest/user/index.html
-2. https://dl.acm.org/doi/pdf/10.1145/2833157.2833162
+#. https://numba.pydata.org/numba-doc/latest/user/index.html
+#. https://dl.acm.org/doi/pdf/10.1145/2833157.2833162
+#. https://numba.readthedocs.io/en/stable/index.html
 
 
 Contributers
