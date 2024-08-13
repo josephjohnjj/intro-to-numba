@@ -8,6 +8,7 @@ Automatic Parallelisation
 
         **Objectives:**
             #. Learn how to automatically parallelize code in Numba.
+            #. Learn how to parallelise loops in Numba.
 
 Setting the `parallel` option for `jit()` enables Numba to automatically parallelize and optimize 
 parts of a function, though it currently only works on CPUs. Instead of parallelizing each operation 
@@ -30,9 +31,31 @@ operations into kernels that run in parallel, improving performance.
 
         return result1
 
+When `parallel=True`, Numba supports explicit parallel loops using `prange` instead of `range`. 
+This allows you to specify that a loop can be parallelized, but you must ensure there are no 
+dependencies between iteration, except for those allowed in reductions.
+
+..  code-block:: python
+    :emphasize-lines: 1
+    :linenos:
+
+    from numba import njit, prange
+
+    @njit(parallel=True)
+    def prange_test(A):
+        s = 0
+
+        for i in prange(A.shape[0]):
+            s += A[i]
+        return s
+
+            return result1
+
+Without `parallel=True` in the `jit` decorator, the `prange` statement behaves the same as `range`.
 
 .. admonition:: Key Points
    :class: hint
 
     #. `@jit(nopython=True, parallel=True)` automatically parallelise functions.
+    #. Numba supports explicit parallel by replacing `range` with `prange`. 
     #. This functionality only works for CPU.
