@@ -132,7 +132,6 @@ performance by overlapping computation and data transfer operations.
     # Define a simple kernel function
     @cuda.jit
     def add_kernel(a, b, c):
-        # TODO: correct thread indexing
         tx = cuda.threadIdx.x
         ty = cuda.blockIdx.x
         bw = cuda.blockDim.x
@@ -158,7 +157,6 @@ performance by overlapping computation and data transfer operations.
     c_gpu = cuda.device_array(size, dtype=np.float32)
 
     # Define block and grid dimensions
-    # TODO: correct blocks and grids
     threads_per_block = 256
     blocks_per_grid = (size + (threads_per_block - 1)) // threads_per_block
 
