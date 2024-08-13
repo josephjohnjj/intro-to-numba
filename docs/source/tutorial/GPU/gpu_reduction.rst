@@ -23,9 +23,9 @@ Numba offers a `@reduce` decorator that transforms a simple binary operation int
         return a + b
 
     A = (numpy.arange(1234, dtype=numpy.float64)) + 1
-    expect = A.sum()      # NumPy sum reduction
-    got = sum_reduce(A)   # cuda sum reduction
-    assert expect == got
+    normal_sum = A.sum()      # NumPy sum reduction
+    gpu_sum = sum_reduce(A)   # cuda sum reduction
+    assert normal_sum == gpu_sum
 
 
 
