@@ -17,18 +17,10 @@ Contents
  
    * - Topics
      - Duration
-   * - Requesting a Job
-     - 20 minutes
-   * - High-level HPC Architecture
-     - 25 minutes
-   * - Vector Parallelism
-     - 25 minutes
-   * - Multi-core Parallelism
-     - 25 minutes
-   * - GPU Parallelism
-     - 40 minutes
-   * - GPU Parallelism
-     - 25 minutes
+   * - CPU Parallelisation
+     - 1.5 Hours
+   * - GPU Parallelisation
+     - 1.5 Hours
 
 
 
