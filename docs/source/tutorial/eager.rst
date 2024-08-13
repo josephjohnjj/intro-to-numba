@@ -27,6 +27,7 @@ on the input types.
 In *eager compilation* mode you can also tell Numba the function signature you are expecting.
 
 ..  code-block:: python
+    :emphasize-lines: 1
     :linenos:
 
     @jit(int32(int32, int32))
