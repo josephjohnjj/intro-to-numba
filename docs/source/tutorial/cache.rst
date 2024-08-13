@@ -1,5 +1,5 @@
-No GIL mode
------------
+Caching Compiled Functions
+--------------------------
 
 .. admonition:: Overview
    :class: Overview
