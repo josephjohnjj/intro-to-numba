@@ -13,4 +13,4 @@ Contributers
 1.  `Joseph John, Staff Scientist, NCI <https://www.josephjohn.org>`_
 
 *ChatGPT has been utilized to enhance and generate texts in this document*. 
-*OpenAI. (2024). *ChatGPT* (August 2024 version).*
+*OpenAI. (2024). ChatGPT (August 2024 version).*
