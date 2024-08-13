@@ -22,7 +22,8 @@ Tutorial (GPU)
 .. toctree::
 
     tutorial/GPU/gpu_intro
-    tutorial/GPU/vectorization.rst
+    tutorial/GPU/gpu_vect
+    tutorial/GPU/gpu_reduction
 
 
 
