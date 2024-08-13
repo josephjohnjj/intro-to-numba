@@ -22,8 +22,11 @@ Tutorial (GPU)
 .. toctree::
 
     tutorial/GPU/gpu_intro
+    tutorial/GPU/gpu_mem
+    tutorial/GPU/gpu_streams
     tutorial/GPU/gpu_vect
     tutorial/GPU/gpu_reduction
+    
 
 
 
