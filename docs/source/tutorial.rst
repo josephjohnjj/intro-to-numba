@@ -1,5 +1,5 @@
-Tutorial
-========
+Tutorial (CPU)
+==============
 
 In this tutorial, we'll be using the Gadi HPC machine at NCI. A Python virtual environment 
 will be provided for you during the session.
@@ -14,7 +14,14 @@ will be provided for you during the session.
     tutorial/cache
     tutorial/parallel
     tutorial/ufunc
-    tutorial/gpu
+    
+
+Tutorial (GPU)
+==============
+
+.. toctree::
+    
+    tutorial/GPU/gpu_intro
 
 
 
