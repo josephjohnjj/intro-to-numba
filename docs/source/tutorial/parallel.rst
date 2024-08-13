@@ -36,7 +36,7 @@ This allows you to specify that a loop can be parallelized, but you must ensure 
 dependencies between iteration, except for those allowed in reductions.
 
 ..  code-block:: python
-    :emphasize-lines: 1
+    :emphasize-lines: 1, 3, 8
     :linenos:
 
     from numba import njit, prange

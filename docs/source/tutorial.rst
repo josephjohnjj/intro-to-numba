@@ -13,7 +13,7 @@ will be provided for you during the session.
     tutorial/cno_gil
     tutorial/cache
     tutorial/parallel
-    tutorial/parallel
+    tutorial/ufunc
 
 
 
