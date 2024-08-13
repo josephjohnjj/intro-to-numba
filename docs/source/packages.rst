@@ -8,8 +8,8 @@ Python Virtual Environment
  4.  numba
  5.  mpi4py
 
-In this workshop, we will use a Python virtual environment to manage all the required Python packages. A Python virtual environment is an isolated 
-workspace that allows you to manage project-specific dependencies without affecting the global Python installation or other projects. By creating a 
+In this workshop, we will use a Python virtual environment to manage all the required Python packages.
+A Python virtual environment is an isolated workspace that allows you to manage project-specific dependencies without affecting the global Python installation or other projects. By creating a 
 virtual environment, you can install and manage libraries and packages independently, ensuring that each project has its own set of dependencies and 
 avoiding version conflicts. This isolation helps maintain consistent and reproducible development environments.
 
