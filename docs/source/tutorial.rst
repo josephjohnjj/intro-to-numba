@@ -12,6 +12,7 @@ will be provided for you during the session.
     tutorial/compiler_mode
     tutorial/cno_gil
     tutorial/cache
+    tutorial/parallel
 
 
 

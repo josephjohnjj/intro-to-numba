@@ -37,4 +37,4 @@ However subsequent executions with the same type signature are significantly fas
    :class: hint
 
     #. `@jit(nopython=True, cache=True)` saves the compiled function to file.
-    #. This eliminates the need for future function compilations.
+    #. This eliminates the need for repeated function compilations.
