@@ -4,7 +4,7 @@ Reduction in GPU
 .. admonition:: Overview
    :class: Overview
 
-    * **Tutorial:** 10 min
+    * **Tutorial:** 5 min
 
         **Objectives:**
             #. Learn how to perform reduction operations on GPUs.
@@ -27,10 +27,7 @@ Numba offers a `@reduce` decorator that transforms a simple binary operation int
     got = sum_reduce(A)   # cuda sum reduction
     assert expect == got
 
-*(n),()->(n)* tells NumPy that the function takes a n-element one-dimension array, a scalar, denoted 
-by the empty *tuple ()*, and computes an *n-element one-dimension array*.
 
-Unlike *vectorize()* functions, *guvectorize()* functions should not return any result.
 
 .. admonition:: Key Points
    :class: hint
