@@ -8,6 +8,7 @@ will be provided for you during the session.
 
     tutorial/intro
     tutorial/llvm
+    tutorial/eager
 
 
 
