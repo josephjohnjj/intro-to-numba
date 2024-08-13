@@ -20,8 +20,9 @@ Tutorial (GPU)
 ==============
 
 .. toctree::
-    
+
     tutorial/GPU/gpu_intro
+    tutorial/GPU/vectorization.rst
 
 
 
