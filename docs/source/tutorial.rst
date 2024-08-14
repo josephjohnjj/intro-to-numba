@@ -10,7 +10,7 @@ will be provided for you during the session.
     tutorial/llvm
     tutorial/eager
     tutorial/compiler_mode
-    tutorial/cno_gil
+    tutorial/no_gil
     tutorial/cache
     tutorial/parallel
     tutorial/ufunc
