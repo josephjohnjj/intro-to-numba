@@ -15,7 +15,7 @@ Numba's vectorize feature enables Python functions that take scalar inputs to be
  Numba function, you can choose between eager or lazy mode for vectorization.
 
 ..  code-block:: python
-    :emphasize-lines: 1, 3, 8
+    :emphasize-lines: 1, 3, 4, 5, 6
     :linenos:
 
     from numba import vectorize, int32, int64, float32, float64
