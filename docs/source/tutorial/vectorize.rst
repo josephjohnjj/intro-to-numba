@@ -1,4 +1,4 @@
-vectorize
+Vectorize
 ----------
 
 .. admonition:: Overview
