@@ -39,17 +39,18 @@ dependencies between iteration, except for those allowed in reductions.
     :emphasize-lines: 1, 3, 8
     :linenos:
 
+
     from numba import njit, prange
+
 
     @njit(parallel=True)
     def prange_test(A):
         s = 0
-
+        # Without "parallel=True" in the jit-decorator
+        # the prange statement is equivalent to range
         for i in prange(A.shape[0]):
             s += A[i]
         return s
-
-            return result1
 
 Without `parallel=True` in the `jit` decorator, the `prange` statement behaves the same as `range`.
 
