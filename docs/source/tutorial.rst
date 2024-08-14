@@ -14,6 +14,7 @@ will be provided for you during the session.
     tutorial/cache
     tutorial/parallel
     tutorial/ufunc
+    tutorial/vectorize
     
 
 Tutorial (GPU)
