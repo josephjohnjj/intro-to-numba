@@ -92,4 +92,3 @@ You can learn more about thread indexing in the tutorial
 
     #. `@vectorize` can target GPUs.
     #. Device functions can only be invoked from another device functions or kernel functions.
-    #. Data management is automatic in Numba, but we can also manage it manually.
