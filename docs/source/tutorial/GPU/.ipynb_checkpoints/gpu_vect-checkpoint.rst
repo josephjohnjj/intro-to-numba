@@ -32,10 +32,9 @@ Unlike *vectorize()* functions, *guvectorize()* functions should not return any 
 In Numba's `@guvectorize` functions, there is no explicit return statement. Instead, the output is passed via the output argument (in this case, `res`). Numba modifies this array in place. When invoking the function, the result is automatically returned because Numba allocates an output array for you.
 
 
-**Key Points:**
+**In-place Modification**: The `res` array is the output, which is modified in place within the `guvectorize` function.
 
-1. **In-place Modification**: The `res` array is the output, which is modified in place within the `guvectorize` function.
-2. **Return**: When calling the `guvectorize`-decorated function, even though the function doesn't explicitly return anything, Numba provides the output array based on the function signature.
+**Return**: When calling the `guvectorize`-decorated function, even though the function doesn't explicitly return anything, Numba provides the output array based on the function signature.
 
 
 
